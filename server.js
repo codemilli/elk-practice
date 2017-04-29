@@ -11,4 +11,6 @@ CLIENT.get({
   index: 'simpsons',
   type: 'episode',
   id: 1
+}).then(function(data) {
+  console.log('data => ', data);
 });
