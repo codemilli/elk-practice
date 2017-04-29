@@ -22,6 +22,12 @@ chalk@^1.0.0:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
+csvtojson:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/csvtojson/-/csvtojson-1.1.4.tgz#8deafcd6e78dac01812a34ed022670e16d402fe7"
+  dependencies:
+    lodash "^4.17.3"
+
 elasticsearch:
   version "13.0.0"
   resolved "https://registry.yarnpkg.com/elasticsearch/-/elasticsearch-13.0.0.tgz#7f95bdbff5cad637a53be613ddb9adf3770cef58"
@@ -54,6 +60,10 @@ lodash.isempty@^4.4.0:
 lodash.trimend@^4.5.1:
   version "4.5.1"
   resolved "https://registry.yarnpkg.com/lodash.trimend/-/lodash.trimend-4.5.1.tgz#12804437286b98cad8996b79414e11300114082f"
+
+lodash@^4.17.3:
+  version "4.17.4"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
 lodash@2.4.2:
   version "2.4.2"
