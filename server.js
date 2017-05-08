@@ -14,3 +14,21 @@ CLIENT.get({
 }).then(function(data) {
   console.log('data => ', data);
 });
+
+
+CLIENT.get({
+  index: 'simpsons',
+  type: 'episode',
+  id: 2
+}).then(function(data) {
+  console.log('data => ', data);
+});
+
+
+CLIENT.get({
+  index: 'simpsons',
+  type: 'episode',
+  id: 9999
+}).then(function(data) {
+  console.log('not found data => ', data);
+});
